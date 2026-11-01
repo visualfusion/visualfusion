@@ -40,7 +40,7 @@ For over 25 years, I have worked as a design engineer and systems architect, bri
 | Project | Platform / Type | Core Architecture | Links |
 | :--- | :--- | :--- | :--- |
 | **FeedKeeper** | Native App (iOS, iPadOS, macOS) & Server | Swift 6, SwiftUI, SQLite FTS5, WebKit, Node.js Core | [feedkeeper.cloud](https://feedkeeper.cloud) · [Open Source Core](https://github.com/visualfusion/feedkeeper) |
-| **LumiGlass** | Native Smart Home Client (iOS, iPadOS, macOS) | Swift 6, SwiftUI, Apple HomeKit, Home Assistant WebSockets | [visualfusion.de/lumiglass](https://www.visualfusion.de/lumiglass) · [Roadmap](https://www.visualfusion.de/lumiglass#roadmap) |
+| **LumiGlass** | Native Smart Home Client (iOS, iPadOS, macOS) | Swift 6, SwiftUI, Apple HomeKit, Home Assistant WebSockets | [lumiglass.app](https://lumiglass.app) · [Roadmap](https://www.visualfusion.de/lumiglass#roadmap) |
 | **visualfusion** | Agency Web Application | React 19 SSR, Three.js 3D WebGL, Tailwind CSS v4, Umami | [visualfusion.de](https://www.visualfusion.de) |
 | **Portfolio** | Headless SPA & Content Management | React 18, Vite SSG, Craft CMS 5, GraphQL, Cloudflare Workers | [christianhamann.de](https://christianhamann.de) |
 
@@ -50,12 +50,18 @@ For over 25 years, I have worked as a design engineer and systems architect, bri
 
 ### FeedKeeper
 A high-end editorial RSS reader designed natively for the Apple ecosystem.
+
+[**Visit feedkeeper.cloud ↗**](https://feedkeeper.cloud) &nbsp;·&nbsp; [**Open Source Server Core (GitHub) ↗**](https://github.com/visualfusion/feedkeeper)
+
 - Built strictly with Swift 6 and SwiftUI, adhering to strict concurrency and zero external Swift package dependencies.
 - Features a personalized editorial newspaper issue ("Deine Zeitung"), offline reading with delta synchronization, and sub-millisecond local full-text search powered by SQLite FTS5.
 - Accompanied by a standalone, MIT-licensed open-source server core and a commercial cloud edition with automated AI curation.
 
 ### LumiGlass
 A native smart home client unifying Apple HomeKit and Home Assistant into a cohesive Liquid Glass interface.
+
+[**Visit lumiglass.app ↗**](https://lumiglass.app) &nbsp;·&nbsp; [**Roadmap & Architecture ↗**](https://www.visualfusion.de/lumiglass#roadmap)
+
 - Built with Swift 6 and SwiftUI, leveraging Apple's native Liquid Glass design language and modern concurrency.
 - Dual-mode architecture communicating directly with HomeKit accessories via `HMHomeManager` and with Home Assistant over WebSockets.
 - Real-time controls for lighting, climate, and shading, with 24-hour historical sensor telemetry and cross-platform scene execution.
